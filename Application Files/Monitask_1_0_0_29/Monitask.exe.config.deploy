@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+  </startup>
+  <appSettings>
+    <add key="cfg_ScreenshotCount" value="3" />
+    <add key="cfg_ActivityLevelTracking" value="true" />
+    <add key="cfg_AppTracking" value="true" />
+    <add key="cfg_AutoPause" value="true" />
+    <add key="cfg_AllowOfflineTime" value="true" />
+    <add key="cfg_ScreenshotNotify" value="true" />
+    <add key="cfg_PlaySound" value="true"/>
+    <add key="cfg_AutoRun" value="true"/>
+    <add key="cfg_AutoRunKey" value="Monitaskapp"/>
+    <add key="cfg_UserName" value="User"/>
+    <add key="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=deskcap;AccountKey=whaBJIbY4lHF++nFHkH4+F9/9anaB05TRKlf2K2mRtQJjHN32ovqYt+aUZXMr+Emize6kpPFUCOYYxRJnCEsfw==" />
+    <add key="AppPath" value="http://deskcap.azurewebsites.net/" />
+    <add key="ClientSettingsProvider.ServiceUri" value="" />
+  </appSettings>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-9.0.0.0" newVersion="9.0.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+  <system.web>
+    <membership defaultProvider="ClientAuthenticationMembershipProvider">
+      <providers>
+        <add name="ClientAuthenticationMembershipProvider" type="System.Web.ClientServices.Providers.ClientFormsAuthenticationMembershipProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" />
+      </providers>
+    </membership>
+    <roleManager defaultProvider="ClientRoleProvider" enabled="true">
+      <providers>
+        <add name="ClientRoleProvider" type="System.Web.ClientServices.Providers.ClientRoleProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" cacheTimeout="86400" />
+      </providers>
+    </roleManager>
+  </system.web>
+</configuration>
