@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Monitask.exe" version="1.0.1.43" publicKeyToken="bd2694edd543e319" language="en-US" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Resourses\MT_znak.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Monitask" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Monitask.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bluefragments.ConfigurationManager.dll" size="15360">
+      <assemblyIdentity name="Bluefragments.ConfigurationManager" version="1.0.5917.29744" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kJonu4DDlWTCAGcE31L1qAK9pTxEZQvWb9+DaUQHBLo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gma.System.MouseKeyHook.dll" size="53248">
+      <assemblyIdentity name="Gma.System.MouseKeyHook" version="5.4.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>J4u6seBNkXBnl2llCgASIePa4ZqEBf4YHoK72CvHv8o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.ApplicationInsights.dll" size="188664">
+      <assemblyIdentity name="Microsoft.ApplicationInsights" version="2.2.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>63qlTJnL36r9pCOWt0WI3tu6XvnIBWljn2pWnFOULDM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.WindowsAzure.Storage.dll" size="1059456">
+      <assemblyIdentity name="Microsoft.WindowsAzure.Storage" version="7.2.1.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Mgfjrokgo83v6zI1qJO3+Nnd1SRlOZNWccpUjfGbiYc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Monitask.exe" size="432504">
+      <assemblyIdentity name="Monitask" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>zJO20SshGOucZ63doCIwflT18o4GE08gf1d9C+hKrZw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="526336">
+      <assemblyIdentity name="Newtonsoft.Json" version="9.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>V14w+Y5OpCyeUW7ci7sprYtQsXOj5rNrW6OeEzzOlAY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WpfAnimatedGif.dll" size="39936">
+      <assemblyIdentity name="WpfAnimatedGif" version="1.4.14.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>RhBb5sbZUOuvLtgSX8bl9tho3vXKGg9/Skygc+xuCh8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Monitask.exe.config" size="4104">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1dNVwRowAIMND9s5g5sW2M8w2MGg4XOypqqmI3F8+Es=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resourses\close.svg" size="1190">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>n2yYuOYewLW2Y/pItZAcb8UI/Qn+5Lxk+v7kqVQzetA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resourses\MT_znak.ico" size="15086">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0hoxXUQ/D6zB73iiPkyRynPWNexeXQnqEosQ9IW9Nik=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=developmentca" issuerKeyHash="07c06f92347628172447432959fd47a085a555a0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>tIx/ZZ8AhC+9fUMWCCFA09Kg9Hc=</DigestValue></Reference></SignedInfo><SignatureValue>lDMz0f3krurQ7m3Ovb1snR0O4dPdL6JpRYffR6foXefppyh4YZNvsNoDENvCo+QiLiTpmuPGx8NbhTdOhyYcFdV5968UMcq3u3LYNJZKL0TxEMr82GxgW1kOAWJKcjnhN8OPJgyymHITnlBx05JmYmTAYNAIDuB5yAh3afiZIjq5iiMyPXaMuPpmdcAkibM00/5DnEqFW4FmsxqPVKyMSFBUJTlb7DVwFFgAkiY947ETSRCG+U7qoMPYH0+IEO+zz9nSIVSp9nIom9hYjgPOE6GuzOOETMGXhc4PX+++H6FSADGC3o50TMXGOtj1rI88HgfY5VbifgZQlRdhwUvwrQ==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0GNDVthUfUhUoGx3IPJD6JboBuHMl1nkAP2u1YijJRPJRgP6AmsaO0f1fYRoZPCtLIyNdeNyls4ZjDU2EKX2wBvlGocwFiET5ZZQU+OxA5RILy8w4gUdNCMkXgsixZoENS5/H45g7KDUtW4trYLzT/vYJ0YHdXeiltf3h94TLdqSE6MFut3YhsGto1iznx6vOcLmpyRoogKskF6M6h3Xkg9hCA7JobshjhaTntexLiUaO2HgLf5YclUjRQ0RmBuE0OlfAPsCE/jcMgN3OaH3olhX3wvWFsrU54XEAIwvcUtytqVeMvn1jEjxDVSPKxckbs4jVyLCeUhTLUnA43bNKw==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="77f4a0d2d340210816437dbd2f84009f657f8cb4" Description="" Url=""><as:assemblyIdentity name="Monitask.exe" version="1.0.1.43" publicKeyToken="bd2694edd543e319" language="en-US" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=developmentca</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>GIsOtjFoZc6WA+Hcq1Y2rZzBgvQ=</DigestValue></Reference></SignedInfo><SignatureValue>o66w7LOPDzpM47TE5DMzH/W9Lu7ZHAinU95a6BiyeIPUzQ88JzqHJmdfPReV0MWSRiAI59lLZI5PJ5mnfW6ZQu4YrlufwsEO6aXOpBciSx9fAorEnJufYkS6WPUhZ0mQ9FisXFuql9vq1U6CiEqiH9yoYKR8qAHslKnlC8gUJV2RylGQX8vUz8GrsBTj9UYzgr0/3JLZViNwuFYGJ4z0zacLM0F+uw7fE+W37BeO65Lwjt0DQFxYf2bJHsJpGfwRkdCAMDE61AV3MkGG7+yHzwf5a01IN9zQ+6q65nXNFa53W/uIwkkXI1TYtGvkG1YXUa6JeKX3h6sB+uTXefxJ8w==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0GNDVthUfUhUoGx3IPJD6JboBuHMl1nkAP2u1YijJRPJRgP6AmsaO0f1fYRoZPCtLIyNdeNyls4ZjDU2EKX2wBvlGocwFiET5ZZQU+OxA5RILy8w4gUdNCMkXgsixZoENS5/H45g7KDUtW4trYLzT/vYJ0YHdXeiltf3h94TLdqSE6MFut3YhsGto1iznx6vOcLmpyRoogKskF6M6h3Xkg9hCA7JobshjhaTntexLiUaO2HgLf5YclUjRQ0RmBuE0OlfAPsCE/jcMgN3OaH3olhX3wvWFsrU54XEAIwvcUtytqVeMvn1jEjxDVSPKxckbs4jVyLCeUhTLUnA43bNKw==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIDJTCCAhGgAwIBAgIQ/TAN8sK236JAPMTM1h7pUjAJBgUrDgMCHQUAMBgxFjAUBgNVBAMTDWRldmVsb3BtZW50Y2EwHhcNMTYxMjA5MDU0MzQxWhcNMzkxMjMxMjM1OTU5WjAYMRYwFAYDVQQDEw1kZXZlbG9wbWVudGNhMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0GNDVthUfUhUoGx3IPJD6JboBuHMl1nkAP2u1YijJRPJRgP6AmsaO0f1fYRoZPCtLIyNdeNyls4ZjDU2EKX2wBvlGocwFiET5ZZQU+OxA5RILy8w4gUdNCMkXgsixZoENS5/H45g7KDUtW4trYLzT/vYJ0YHdXeiltf3h94TLdqSE6MFut3YhsGto1iznx6vOcLmpyRoogKskF6M6h3Xkg9hCA7JobshjhaTntexLiUaO2HgLf5YclUjRQ0RmBuE0OlfAPsCE/jcMgN3OaH3olhX3wvWFsrU54XEAIwvcUtytqVeMvn1jEjxDVSPKxckbs4jVyLCeUhTLUnA43bNKwIDAQABo3MwcTAPBgNVHRMBAf8EBTADAgEAMBMGA1UdJQQMMAoGCCsGAQUFBwMDMEkGA1UdAQRCMECAELiP1iRrd84/35fCJywBTh2hGjAYMRYwFAYDVQQDEw1kZXZlbG9wbWVudGNhghD9MA3ywrbfokA8xMzWHulSMAkGBSsOAwIdBQADggEBABhjCqRYvZMkOUYPDIzn0xI2OEE0kCBfhWpPwktmMEqsSt8VA2VGYr5pO6Gm6g7i61E6kV/YG78WrdO3eio6yZuN4hHG8vxMNEdaSEyNlNabLDiXIXN9vJMEMiQTefyedl8tnwxlhpk64hkfkIixnC+ucuazaXW51GOgVl+s6nlffb8hfZkoBpao6U1NnRyIJWyuep4woK8CIIKIRTv2nRZYrVJdShHfVCMGrOBRJWzCxPzkeNL+kucwCdkN7AGK8bj1tcLnj2M2uijgpIr41JZuN3lm2jzsG6xYVP+BYM1bHkVm3TUQ7DYzx/VM8cs4PbjWuC2RR5GWgZdutlCRG1Y=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
