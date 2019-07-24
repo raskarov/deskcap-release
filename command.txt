@@ -1,0 +1,1 @@
+C:\Users\100\.nuget\packages\squirrel.windows\1.9.1\tools\Squirrel.exe --releasify C:\Users\100\Documents\GitHub\deskcap-release\Squirrel\MonitaskApp.1.4.7.nupkg --releaseDir C:\Users\100\Documents\GitHub\deskcap-release\Squirrel\Release

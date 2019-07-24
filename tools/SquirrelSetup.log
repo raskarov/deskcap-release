@@ -1,0 +1,95 @@
+﻿2019-06-18 13:18:26> Program: Starting Squirrel Updater: 
+2019-06-18 13:19:27> Program: Starting Squirrel Updater: --releasify C:\Users\100\Documents\GitHub\deskcap-release\Squirrel\Monitask.1.3.1.1.nupkg
+2019-06-18 13:19:27> Program: Bootstrapper EXE found at:C:\Users\100\.nuget\packages\squirrel.windows\1.9.1\tools\Setup.exe
+2019-06-18 13:19:27> Program: Creating release package: C:\Users\100\Releases\Monitask.1.3.1.1.nupkg
+2019-06-18 13:19:27> Unhandled exception: System.Exception: Your package version is currently 1.3.1.1, which is *not* SemVer-compatible, change this to be a SemVer version number
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2019-06-18 13:20:02> Program: Starting Squirrel Updater: --releasify C:\Users\100\Documents\GitHub\deskcap-release\Squirrel\Monitask.1.3.1.nupkg
+2019-06-18 13:20:02> Program: Bootstrapper EXE found at:C:\Users\100\.nuget\packages\squirrel.windows\1.9.1\tools\Setup.exe
+2019-06-18 13:20:02> Program: Creating release package: C:\Users\100\Releases\Monitask.1.3.1.1.nupkg
+2019-06-18 13:20:02> Unhandled exception: System.Exception: Your package version is currently 1.3.1.1, which is *not* SemVer-compatible, change this to be a SemVer version number
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2019-06-18 13:29:48> Program: Starting Squirrel Updater: --releasify C:\Users\100\Documents\GitHub\deskcap-release\Squirrel\Monitask.1.3.1.nupkg
+2019-06-18 13:29:48> Program: Bootstrapper EXE found at:C:\Users\100\.nuget\packages\squirrel.windows\1.9.1\tools\Setup.exe
+2019-06-18 13:29:48> Program: Creating release package: C:\Users\100\Releases\Monitask.1.3.1.1.nupkg
+2019-06-18 13:29:48> Unhandled exception: System.Exception: Your package version is currently 1.3.1.1, which is *not* SemVer-compatible, change this to be a SemVer version number
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2019-06-18 13:31:19> Program: Starting Squirrel Updater: --releasify C:\Users\100\Documents\GitHub\deskcap-release\Squirrel\Monitask.1.3.1.nupkg
+2019-06-18 13:31:19> Program: Bootstrapper EXE found at:C:\Users\100\.nuget\packages\squirrel.windows\1.9.1\tools\Setup.exe
+2019-06-18 13:31:19> Program: Creating release package: C:\Users\100\Releases\Monitask.1.3.1.1.nupkg
+2019-06-18 13:31:19> Unhandled exception: System.Exception: Your package version is currently 1.3.1.1, which is *not* SemVer-compatible, change this to be a SemVer version number
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2019-06-18 13:31:47> Program: Starting Squirrel Updater: 
+2019-06-18 13:44:49> Program: Starting Squirrel Updater: --releasify C:\Users\100\Documents\GitHub\deskcap-release\Squirrel\Monitask.1.4.0.nupkg
+2019-06-18 13:44:49> Program: Bootstrapper EXE found at:C:\Users\100\.nuget\packages\squirrel.windows\1.9.1\tools\Setup.exe
+2019-06-18 13:44:49> Program: Creating release package: C:\Users\100\Releases\Monitask.1.3.1.1.nupkg
+2019-06-18 13:44:49> Unhandled exception: System.Exception: Your package version is currently 1.3.1.1, which is *not* SemVer-compatible, change this to be a SemVer version number
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2019-06-18 13:53:13> Program: Starting Squirrel Updater: --releasify C:\Users\100\Documents\GitHub\deskcap-release\Squirrel\Monitask.1.4.0.nupkg --releaseDir C:\Users\100\Documents\GitHub\deskcap-release\Squirrel
+2019-06-18 13:53:13> Program: Bootstrapper EXE found at:C:\Users\100\.nuget\packages\squirrel.windows\1.9.1\tools\Setup.exe
+2019-06-18 13:53:13> Unhandled exception: System.IO.IOException: The process cannot access the file 'C:\Users\100\Documents\GitHub\deskcap-release\Squirrel\Monitask.1.4.0.nupkg' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2019-06-18 13:53:53> Program: Starting Squirrel Updater: --releasify C:\Users\100\Documents\GitHub\deskcap-release\Squirrel\Monitask.1.4.0.nupkg --releaseDir C:\Users\100\Documents\GitHub\deskcap-release\Squirrel
+2019-06-18 13:53:53> Program: Bootstrapper EXE found at:C:\Users\100\.nuget\packages\squirrel.windows\1.9.1\tools\Setup.exe
+2019-06-18 13:53:53> Unhandled exception: System.IO.IOException: The process cannot access the file 'C:\Users\100\Documents\GitHub\deskcap-release\Squirrel\Monitask.1.4.0.nupkg' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2019-06-18 13:55:28> Program: Starting Squirrel Updater: --releasify C:\Users\100\Documents\GitHub\deskcap-release\Monitask.1.4.0.nupkg --releaseDir C:\Users\100\Documents\GitHub\deskcap-release\Squirrel
+2019-06-18 13:55:28> Program: Bootstrapper EXE found at:C:\Users\100\.nuget\packages\squirrel.windows\1.9.1\tools\Setup.exe
+2019-06-18 13:55:28> Program: Creating release package: C:\Users\100\Documents\GitHub\deskcap-release\Squirrel\Monitask.1.4.0.nupkg
+2019-06-18 13:55:28> ReleasePackage: Creating release package: C:\Users\100\Documents\GitHub\deskcap-release\Squirrel\Monitask.1.4.0.nupkg => C:\Users\100\Documents\GitHub\deskcap-release\Squirrel\Monitask-1.4.0-full.nupkg
+2019-06-18 13:55:31> ReleasePackage: Extracting dependent packages: []
+2019-06-18 13:55:31> ReleasePackage: Removing unnecessary data
+2019-06-18 13:55:31> ReleasePackage: No release notes found in C:\Users\100\AppData\Local\SquirrelTemp\tempa\Monitask.nuspec
+2019-06-18 13:55:32> Program: Building embedded zip file for Setup.exe
+2019-06-18 14:03:00> Program: Starting Squirrel Updater: --releasify C:\Users\100\Documents\GitHub\deskcap-release\Monitask.1.4.0.nupkg --releaseDir C:\Users\100\Documents\GitHub\deskcap-release\Squirrel
+2019-06-18 14:03:00> Program: Bootstrapper EXE found at:C:\Users\100\.nuget\packages\squirrel.windows\1.9.1\tools\Setup.exe
+2019-06-18 14:03:00> Unhandled exception: System.IO.FileNotFoundException: Could not find file 'C:\Users\100\Documents\GitHub\deskcap-release\Monitask.1.4.0.nupkg'.
+File name: 'C:\Users\100\Documents\GitHub\deskcap-release\Monitask.1.4.0.nupkg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2019-06-18 14:03:25> Program: Starting Squirrel Updater: --releasify C:\Users\100\Documents\GitHub\deskcap-release\Squirrel\Monitask.1.4.0.nupkg --releaseDir C:\Users\100\Documents\GitHub\deskcap-release\Squirrel
+2019-06-18 14:03:25> Program: Bootstrapper EXE found at:C:\Users\100\.nuget\packages\squirrel.windows\1.9.1\tools\Setup.exe
+2019-06-18 14:03:25> Unhandled exception: System.IO.IOException: The process cannot access the file 'C:\Users\100\Documents\GitHub\deskcap-release\Squirrel\Monitask.1.4.0.nupkg' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2019-06-18 14:05:00> Program: Starting Squirrel Updater: --releasify C:\Users\100\Documents\GitHub\deskcap-release\Squirrel\Monitask.1.4.0.nupkg --releaseDir C:\Users\100\Documents\GitHub\deskcap-release\Squirrel\Release
+2019-06-18 14:05:00> Program: Bootstrapper EXE found at:C:\Users\100\.nuget\packages\squirrel.windows\1.9.1\tools\Setup.exe
+2019-06-18 14:05:00> Program: Creating release package: C:\Users\100\Documents\GitHub\deskcap-release\Squirrel\Release\Monitask.1.4.0.nupkg
+2019-06-18 14:05:00> ReleasePackage: Creating release package: C:\Users\100\Documents\GitHub\deskcap-release\Squirrel\Release\Monitask.1.4.0.nupkg => C:\Users\100\Documents\GitHub\deskcap-release\Squirrel\Release\Monitask-1.4.0-full.nupkg
+2019-06-18 14:05:02> ReleasePackage: Extracting dependent packages: []
+2019-06-18 14:05:02> ReleasePackage: Removing unnecessary data
+2019-06-18 14:05:02> ReleasePackage: No release notes found in C:\Users\100\AppData\Local\SquirrelTemp\tempa\Monitask.nuspec
+2019-06-18 14:05:04> Program: Building embedded zip file for Setup.exe
